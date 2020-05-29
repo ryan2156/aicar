@@ -1,6 +1,4 @@
-x=input("輸入喔:")
-x=int(x)
-if x>200:
-    print('x')
-else:
-    print('o')
+for i in range(1,6):
+    for j in range(1,6):
+        print('*',end='')
+    print("")
